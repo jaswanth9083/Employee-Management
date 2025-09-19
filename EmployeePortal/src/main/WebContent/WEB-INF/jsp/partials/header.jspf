@@ -1,0 +1,13 @@
+<div class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <span>Employee Portal</span>
+    </div>
+    <div class="linkbar">
+      <a href="${pageContext.request.contextPath}/index.jsp">Home</a>
+      <a href="${pageContext.request.contextPath}/EmployeeListServlet">Employees</a>
+      <a href="${pageContext.request.contextPath}/logout.jsp">Logout</a>
+    </div>
+  </div>
+</div>
